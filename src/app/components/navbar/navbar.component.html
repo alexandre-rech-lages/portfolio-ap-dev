@@ -1,0 +1,27 @@
+<section id="header" class="container rounded-4 mt-5">
+
+  <nav class="navbar  navbar-expand-md navbar-expand-lg " data-bs-theme="dark">
+
+    <div class="container-fluid">
+      <a class="navbar-brand px-2" href="#">
+        <img src="assets/bootstrap-logo.svg" alt="Bootstrap" width="40">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+
+          <li *ngFor="let link of linksNavbar" class="nav-item">
+            <a class="nav-link active" aria-current="page" [href]="link.href">{{ link.texto }}</a>
+          </li>
+
+        </ul>
+        
+      </div>
+    </div>
+
+  </nav>
+
+</section>
