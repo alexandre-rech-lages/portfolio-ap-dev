@@ -1,0 +1,45 @@
+#app {
+  margin: auto;
+  max-width: 65rem;
+  padding: 12px;
+}
+
+section {
+  background: rgba(29, 29, 29, .22);
+  box-shadow: 1.95px 1.95px 2.6px rgba(0, 0, 0, .15);
+
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+}
+
+#banner .banner-text {
+  background: linear-gradient(90deg, rgba(229, 62, 168, .906), rgba(172, 47, 189, .925) 60%);
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  color: transparent;
+}
+
+#banner .bg-foto {
+  background: linear-gradient(90deg, rgba(229, 62, 168, .906), rgba(172, 47, 189, .925) 60%);
+  border-radius: 33% 67% 53% 47% / 66% 41% 59% 34%;
+  height: 15rem;
+  margin-right: 3rem;
+  overflow: hidden;
+  width: 15rem;
+}
+
+#sobre .quote {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 5rem;
+}
+
+#contato .icone {
+  background: linear-gradient(90deg, rgba(229, 62, 168, .906), rgba(172, 47, 189, .925) 60%);
+  border-radius: 50%;
+  height: 3.2rem;
+  width: 3.2rem;
+}
+
