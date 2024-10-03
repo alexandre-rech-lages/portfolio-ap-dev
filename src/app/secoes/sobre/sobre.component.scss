@@ -1,6 +1,6 @@
 #sobre {
-  background: rgba(29, 29, 29, .22);
-  box-shadow: 1.95px 1.95px 2.6px rgba(0, 0, 0, .15);
+  background: var(--secao-bg-color);
+  box-shadow: var(--secao-box-shadow);
 
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
