@@ -6,23 +6,3 @@
 body {
   background-color: #414141;
 }
-
-div, ul, li, img, article, nav {
-  outline: solid red 0px;
-}
-
-@media (min-width: 768px) {
-
-  /* md breakpoint */
-  .w-md-80 {
-    width: 80% !important;
-  }
-}
-
-@media (min-width: 992px) {
-
-  /* lg breakpoint */
-  .w-lg-65 {
-    width: 65% !important;
-  }
-}
